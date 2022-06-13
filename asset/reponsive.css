@@ -1,0 +1,159 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+
+    .container {
+        padding: 56px;
+    }
+
+    .header__Notification-avatar {
+        display: none;
+    }
+
+    .container__left,
+    .container__right {
+        display: none;
+    }
+
+    .header-mobile {
+        position: relative;
+    }
+
+    .header__navigation {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        justify-content: center;
+    }
+
+    .header__navigation-affter {
+        display: none;
+    }
+
+    .header-none-tablet {
+        display: none;
+    }
+
+    .header-none-pc {
+        display: flex;
+        color: #65676B;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .header {
+        position: fixed;
+    }
+
+    .container__between {
+        max-width: 100%;
+    }
+
+   .header__navigation-home {
+        width: 55px;
+        height: 56px;
+    }
+
+    .header__input-search {
+        width: 40px;
+    }
+
+    .header__input-search input {
+        display: none;
+    }
+
+    .header__navigation-brick::after {
+        width: 60px;
+        bottom: 0;
+    }
+
+    .header__navigation-befor {
+        top: 6px;
+        right: 0;
+    }
+
+    .container__between-item {
+        width: 129px;
+        height: 230px;
+    }
+
+    .container__between-items {
+        width: 129px;
+        height: 230px;
+    }
+
+    .container__between-img {
+        height: 182px;
+    }
+
+    .header-tablet {
+        display: none;
+    }
+
+    .header-tablet-mobile {
+        display: none;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #gir {
+        overflow: hidden;
+    }
+
+    .container {
+        padding: 56px 0 0;
+    }
+
+    .header {
+        position: fixed;
+    }
+
+    .header__navigation {
+        display: none;
+    }
+
+    .header__input-search input {
+        display: none;
+    }
+
+    .header__input-search {
+        width: 40px;
+    }
+
+    .container__between {
+        max-width: 400px;
+    }
+
+    .container__between-mobile {
+        display: none;
+    }
+
+    .container__between-meeting {
+        flex-shrink: 0;
+    }
+
+    .between__comment-like {
+        flex-shrink: 0;
+        padding: 10px 21px;
+    }
+
+    .container__mobile {
+        display: none;
+    }
+
+    .container__between-left {
+        right: 0;
+    }
+
+    .header-none-pc {
+        padding: 0;
+        list-style: none;
+        margin: 16px;
+    }
+
+}

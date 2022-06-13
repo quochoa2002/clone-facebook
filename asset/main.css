@@ -52,6 +52,7 @@ body {
 
 .header__input-search span {
     margin-left: 12px;
+    line-height: 0;
     color: s#65676B;
 }
 
@@ -182,7 +183,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 9px;
+    margin-left: 8px;
     cursor: pointer;
 }
 
@@ -222,6 +223,7 @@ body {
     bottom: 0;
     background-color: #F0F2F5;
     overflow-y: auto;
+    z-index: 2;
 }
 
 .container__left::-webkit-scrollbar {
@@ -844,6 +846,7 @@ body {
 
 .container__between-meeting {
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     padding: 8px 12px;
     margin: 0 8px 0 16px;
@@ -863,6 +866,7 @@ body {
 .container__between-meeting span {
     font-size: 15px;
     font-weight: 600;
+    line-height: 1;
     color: #216FDB;
 }
 
@@ -982,6 +986,8 @@ body {
 }
 
 .between__img {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
@@ -1119,4 +1125,12 @@ body {
 .between__option svg {
     font-size: 16px;
     color: rgb(101, 103, 107);
+}
+
+.header-none-pc {
+    display: none;
+}
+
+.header-none-pc svg {
+    color: #65676B;
 }
