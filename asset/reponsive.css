@@ -126,7 +126,8 @@
     }
 
     .container__between {
-        max-width: 400px;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
     .container__between-mobile {
